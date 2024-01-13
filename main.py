@@ -8,7 +8,7 @@ DATABASE_PATH = 'central_rss_articles.db'
 
 # RSS Feed URLs
 COINDESK_RSS_URL = 'https://www.coindesk.com/arc/outboundfeeds/rss/'
-DEFIANT_RSS_URL = 'https://thedefiant.io/feed/'  # Update this with the correct URL
+DEFIANT_RSS_URL = 'https://thedefiant.io/feed/'
 INVESTING_RSS_URL = 'https://www.investing.com/rss/news_301.rss'
 
 
