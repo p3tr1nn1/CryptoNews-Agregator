@@ -20,6 +20,7 @@ def generate_html(data):
     <html>
     <head>
         <title>Crypto News</title>
+        <meta charset="UTF-8">  # Specify UTF-8 encoding
         <style>
             body { 
                 font-family: Arial, sans-serif; 
@@ -73,8 +74,9 @@ def generate_html(data):
     </html>
     '''
 
-    with open(HTML_OUTPUT_PATH, 'w') as file:
+    with open(HTML_OUTPUT_PATH, 'w', encoding='utf-8') as file:  # Specify encoding as utf-8
         file.write(html_content)
+
 
 def main():
     data = fetch_data()
