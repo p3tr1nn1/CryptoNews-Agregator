@@ -50,7 +50,36 @@ Run the main script:
 ```bash
 python main.py
 ```
+## 🗃️ Database Schema
+
+The application utilizes an SQLite database to store fetched articles. Below is the schema for the `articles` table:
+
+- `title` TEXT: The title of the article.
+- `link` TEXT PRIMARY KEY: The unique link to the article.
+- `description` TEXT: A short description or summary of the article.
+- `publication_date` TEXT: The date and time of the article's publication.
+- `content_url` TEXT: The URL of the article's main content or image.
+- `sent_to_discord` BOOLEAN: Indicates if the article has been sent to Discord.
+- `source` TEXT: The name of the RSS feed source.
+
+## 📡 Supported RSS Feeds
+
+The script fetches and aggregates news from the following cryptocurrency news sources:
+
+1. **Coindesk**: `https://www.coindesk.com/arc/outboundfeeds/rss/`
+2. **The Defiant**: `https://thedefiant.io/feed/`
+3. **Investing.com**: `https://www.investing.com/rss/news_301.rss`
+4. **Bitcoin Magazine**: `https://bitcoinmagazine.com/feed`
+5. **Decrypt.co**: `https://decrypt.co/feed`
+6. **CryptoSlate**: `https://cryptoslate.com/feed`
+7. **Crypto Briefing**: `https://cryptobriefing.com/feed`
+8. **Crypto News**: `https://cryptonews.com/feed/`
+9. **Bitcoinist**: `https://bitcoinist.com/feed`
+10. **The Blockchain**: `https://www.the-blockchain.com/feed`
+11. **NewsBTC**: `https://www.newsbtc.com/feed`
+12. **Bitcoin News**: `https://news.bitcoin.com/feed`
+
 
 ## 📜 License
-
 Distributed under the MIT License. See `LICENSE.md` for more information.
+
