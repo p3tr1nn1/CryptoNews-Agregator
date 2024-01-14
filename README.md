@@ -97,9 +97,6 @@ The `generate_html_page.py` script is designed to create a visually appealing HT
 This script enhances the accessibility of the news data by presenting it in a well-structured and visually appealing web page format, making it easy for users to navigate and read through the latest updates in the world of cryptocurrency.
 
 --- 
-
-Based on the analysis of your `generate_json.py` script, here is a concise description for inclusion in your README:
-
 ---
 
 ## 📄 Generating JSON Report with `generate_json.py`
@@ -120,8 +117,6 @@ The `generate_json.py` script is designed to export cryptocurrency news articles
 This script is particularly useful for batch processing and transferring article data to external systems or for keeping a record of articles yet to be shared on Discord.
 
 ---
-Based on the analysis of your `generate_discord_notifications.py` script, here's the content to be added to your README:
-
 ---
 
 ## 📢 Sending Discord Notifications with `generate_discord_notifications.py`
