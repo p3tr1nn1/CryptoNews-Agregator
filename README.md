@@ -79,7 +79,25 @@ The script fetches and aggregates news from the following cryptocurrency news so
 11. **NewsBTC**: `https://www.newsbtc.com/feed`
 12. **Bitcoin News**: `https://news.bitcoin.com/feed`
 
+---
+
+## 🌐 Generating HTML Report with `generate_html_page.py`
+
+The `generate_html_page.py` script is designed to create a visually appealing HTML page that displays the latest cryptocurrency news articles. Here's how it works:
+
+1. **Fetching Data**: The script connects to the SQLite database (`central_rss_articles.db`) and fetches the latest 100 articles sorted by their publication date in descending order.
+
+2. **HTML Generation**: It then generates an HTML file (`crypto_news.html`) with a sleek and readable layout. This includes:
+   - A styled list of articles, each with a title, link, description, publication date, and associated image.
+   - Each article is displayed within a styled block, containing an image at the top followed by the title, description, and publication date.
+   - The HTML page is styled with CSS for readability, using a dark theme (dark background with light text) that is gentle on the eyes.
+
+3. **Output**: The final output is an HTML file that provides a user-friendly way to browse through the latest 100 cryptocurrency news articles.
+
+This script enhances the accessibility of the news data by presenting it in a well-structured and visually appealing web page format, making it easy for users to navigate and read through the latest updates in the world of cryptocurrency.
+
+--- 
 
 ## 📜 License
 Distributed under the MIT License. See `LICENSE.md` for more information.
-
+--- 
