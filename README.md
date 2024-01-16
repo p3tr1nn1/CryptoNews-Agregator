@@ -1,8 +1,8 @@
-# CryptoNews-DiscordBot 🌍💬
+# CryptoNews-Agregator 🌍💬
 
 ![Python Logo](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python) ![SQLite Logo](https://img.shields.io/badge/SQLite-Database-lightgrey?style=flat&logo=sqlite) ![Discord Logo](https://img.shields.io/badge/Discord-Bot-purple?style=flat&logo=discord) ![RSS Logo](https://img.shields.io/badge/RSS-Feeds-orange?style=flat&logo=rss)
 
-**CryptoNews-DiscordBot** is a  Python-based automation tool specifically designed for cryptocurrency enthusiasts and digital finance communities. As a comprehensive crypto news aggregator, this bot efficiently collects the latest news from a wide array of prominent cryptocurrency RSS feeds. Its primary aim is to streamline the dissemination of cryptocurrency-related news and updates by utilizing modern digital platforms.
+**CryptoNews-Agregator** is a  Python-based automation tool specifically designed for cryptocurrency enthusiasts and digital finance communities. As a comprehensive crypto news aggregator, this bot efficiently collects the latest news from a wide array of prominent cryptocurrency RSS feeds. Its primary aim is to streamline the dissemination of cryptocurrency-related news and updates by utilizing modern digital platforms.
 
 ## 🚀 Features
 
